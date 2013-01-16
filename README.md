@@ -1,4 +1,4 @@
-st2snippets
+snipvinsky
 ===========
 
 My collection of Sublime Text 2 Snippets
