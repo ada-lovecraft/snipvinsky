@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+this.__defineGetter__("${1:varName}", function(){
+    return $1;
+});
+
+this.__defineSetter__("$1", function(${2:value}){
+    $1 = $2;
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>codevinsky:jsgetter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>JavaScript Getters and Setters</description>
+</snippet>
